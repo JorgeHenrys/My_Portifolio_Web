@@ -1,17 +1,28 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiAndroid, DiDart, DiFirebase, DiPhonegap, DiReact, DiUnitySmall, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Trabalho com diversas tecnologias, onde cada uma se encaixa perfeitamente em um determinado tipo de projeto. Que vai desde a criação do Design de uma interface de usuário, passando pelo desenvolvimento de aplicações mobile e web, e até mesmo a criação de Jogos Digitais.
     </SectionText>
     <List>
+    <ListItem>
+        <picture>
+          <DiAndroid size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Mobile Dev</ListTitle>
+          <ListParagraph>
+            Experiência com <br />
+            Flutter
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -19,7 +30,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
+            Experiência com <br />
             React.js
           </ListParagraph>
         </ListContainer>
@@ -31,8 +42,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Experiência com <br />
+            Node, Flask, GraphQL, Firebase e Banco de Dados (MySQL, Postgres e MongoDB)
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +52,22 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>UI/UX e Design</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experiência com <br />
+            Figma, Adobe Illustrator, Krita e Aseprite
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiUnitySmall size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Game Dev</ListTitle>
+          <ListParagraph>
+            Experiência com <br />
+            Unity e Flame (Flutter)
           </ListParagraph>
         </ListContainer>
       </ListItem>
